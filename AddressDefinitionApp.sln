@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressDefinitionApp", "AddressDefinitionApp\AddressDefinitionApp.csproj", "{E80A0379-4F8C-44BD-A22D-C54DF10F8CF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E80A0379-4F8C-44BD-A22D-C54DF10F8CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80A0379-4F8C-44BD-A22D-C54DF10F8CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80A0379-4F8C-44BD-A22D-C54DF10F8CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80A0379-4F8C-44BD-A22D-C54DF10F8CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {207F2CBA-353D-47E4-8F18-F7FED120DED7}
+	EndGlobalSection
+EndGlobal
