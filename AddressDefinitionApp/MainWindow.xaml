@@ -28,7 +28,9 @@
                          materialDesign:ShadowAssist.ShadowEdges="All"
                          Background="WhiteSmoke"
                          VerticalAlignment="Stretch">
+        
         <StackPanel Margin="10">
+            
             <materialDesign:Card 
                 Padding="5" 
                 materialDesign:ShadowAssist.ShadowDepth="Depth5" 
@@ -41,6 +43,7 @@
                     BorderBrush="MediumPurple"
                 Name="inputFieldText"/>
             </materialDesign:Card>
+            
             <Button
                     Style="{StaticResource MaterialDesignRaisedDarkButton}"
                     Width="105"
@@ -51,13 +54,13 @@
                     Margin="10"
                     Name="verifyButon"
                     Click="VerifyButonClick"/>
+            
             <StackPanel Visibility="Collapsed" 
                         Name="infoPanel">
                 <ListBox VerticalAlignment="Stretch"
                      HorizontalAlignment="Stretch"
                      BorderThickness="1"
                      Name="addressList"/>
-                     
                 <Button
                     Style="{StaticResource MaterialDesignRaisedDarkButton}"
                     Width="105"
@@ -69,6 +72,9 @@
                     Name="exitButon"
                     Click="ExitButon_Click"/>
             </StackPanel>
+            
         </StackPanel>
+        
     </materialDesign:Card>
+    
 </Window>
